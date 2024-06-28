@@ -19,4 +19,4 @@ eksctl delete cluster --name demo-cluster --region us-east-1
 
 ```
 aws eks update-kubeconfig --name demo-cluster --region us-east-1
-111
+```
