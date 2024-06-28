@@ -15,4 +15,8 @@ eksctl delete cluster --name demo-cluster --region us-east-1
 ```
 
 
+## to create context under .kube/config
 
+```
+aws eks update-kubeconfig --name demo-cluster --region us-east-1
+111
